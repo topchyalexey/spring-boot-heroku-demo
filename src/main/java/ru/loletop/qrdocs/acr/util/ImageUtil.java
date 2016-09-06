@@ -1,4 +1,4 @@
-package ru.lotetop.qrdocs.acr.util;
+package ru.loletop.qrdocs.acr.util;
 
 import java.awt.Graphics2D;
 import java.awt.Image;

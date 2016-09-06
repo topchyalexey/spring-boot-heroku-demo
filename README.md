@@ -11,4 +11,5 @@ Code is under the [Apache Licence v2](https://www.apache.org/licenses/LICENSE-2.
 
 ## Run locally 
 
- 'mvn clean install  spring-boot:run -DJDBC_DATABASE_URL=jdbc:hsqldb:mem:test;DB_CLOSE_DELAY=-1 -Dspring.datasource.driver-class-name=org.hsqldb.Driver'
+ 'export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=128M -Dserver.port=8090 -Dspring.datasource.driver-class-name=org.hsqldb.jdbc.JDBCDriver"'
+ 'mvn clean install  spring-boot:run -DJDBC_DATABASE_URL=jdbc:hsqldb:mem:test;DB_CLOSE_DELAY=-1 '
