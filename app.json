@@ -2,5 +2,6 @@
   "name": "QR Docs",
   "description": "Application that recocnize and adjust documents by 3 QR Codes in corners",
   "repository": "https://github.com/topchyalexey/spring-boot-heroku-qrdocs",
-  "image": "heroku/java"
+  "image": "heroku/java",
+	"addons": [ "heroku-postgresql" ]
 }
